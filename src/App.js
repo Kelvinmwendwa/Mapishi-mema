@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 
 import About from './components/About/About';
 import Connect from './components/Connect/Connect';
+import NotFound from './components/NotFound/NotFound';
 import { createContext, useState } from 'react';
 
 export const FoodContext = createContext();
@@ -25,7 +26,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/home" element={<Home />} />
-          
+          <Route path="*" element={<NotFound />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Connect />} />
 
