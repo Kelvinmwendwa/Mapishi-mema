@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Container, Button } from "react-bootstrap";
 import { FoodContext } from "../../App";
+import AllMeal from "../meals/AllMeal/AllMeal";
 import NavBar from "../Shares/NavBar/NavBar";
 import SyncLoader from "react-spinners/SyncLoader";
 import toast, { Toaster } from "react-hot-toast";
