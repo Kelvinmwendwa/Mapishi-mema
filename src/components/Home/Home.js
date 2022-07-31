@@ -34,7 +34,7 @@ const Home = () => {
         if (data.meals) {
           setAllMeal(data.meals);
         } else {
-          toast.error("Your search are not Found", {
+          toast.error("Your search is not Found", {
             duration: 4000,
           });
         }
