@@ -12,9 +12,9 @@ const About = () => {
                         <img className="img-fluid rounded-3" src='./dana-tentis.jpg' alt="aboutUs" />
                     </div>
                     <div className=" col-md-6 mx-auto">
-                        <h2 className="text-muted"> Mapishi mema</h2>
+                        <h2 className="text-muted"> Moringa Foods</h2>
                         <p className="mt-4 text-muted text-justify">
-                            Mapishi mema is a single-page online food order website. it is a simple react-router application. The website dynamically changes the route with the URL. <br />
+                            Moringa Foods is a single-page online food order website. it is a simple react-router application. The website dynamically changes the route with the URL. <br />
                             The website is built with React, React-Router and React-Bootstrap. <br />
                             <br />
                             There is a Homepage. The homepage has a search input field and displays food items, a button named add to cart and a Link name learn more.  <br />
