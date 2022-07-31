@@ -13,10 +13,10 @@ const Connect = () => {
 
     emailjs
       .sendForm(
-        "service_b554qum", //create a service the paste the service_id hapa
-        "template_9a01jlt", // create template and insert the template id here
+        "service_b554qum", 
+        "template_9a01jlt", 
         form.current,
-        "ro5bLVe8W-O30P98K" // log in to email.js alafu use your key
+        "ro5bLVe8W-O30P98K" 
       )
       .then(
         (res) => {
