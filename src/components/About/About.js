@@ -9,7 +9,7 @@ const About = () => {
             <Container className="mt-5 pt-5">
                 <main className="row g-4">
                     <div className="col-md-4 offset-md-1">
-                        <img className="img-fluid rounded-3" src='./dana-tentis.jpg' alt="aboutUs" />
+                        <img className="img-fluid rounded-3" src='./https://www.pexels.com/photo/cooked-pasta-sauce-with-cheese-759059/' alt="aboutUs" />
                     </div>
                     <div className=" col-md-6 mx-auto">
                         <h2 className="text-muted"> Moringa Foods</h2>
